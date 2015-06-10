@@ -1,0 +1,26 @@
+{
+  "name": "DropboxBrowser",
+  "version": "v5.1",
+  "license": "MIT",
+  "summary": "Dropbox Browser provides a simple and effective way to browse, view, and download files using the iOS Dropbox SDK.",
+  "homepage": "https://github.com/danielbierwirth/DropboxBrowser",
+  "authors": {
+    "Sam Spencer": "contact@iraremedia.com"
+  },
+  "source": {
+    "git": "https://github.com/danielbierwirth/DropboxBrowser.git",
+    "tag": "v5.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "*.{h,m}",
+  "frameworks": ["Security", 
+                "QuartzCore", 
+                "CoreGraphics", 
+                "DropboxSDK", 
+                "AssetsLibrary", 
+                "UIKit", 
+                "Foundation"]
+}
